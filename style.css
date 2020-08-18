@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ECEEF1;
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+#setUp ul{
+    float: right;
+    padding-right:10px ;
+    margin-top: 10px;
+}
+#setUp li{
+    list-style: none;
+float: left;
+    text-align: center;
+
+}
+#setUp ul > li {
+    font-size: small;
+    
+}
+#doin {
+    background-color: #0077c5;
+    padding: 8px 30px;
+    float: right;
+    margin-left: 3px;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+}
+#doin a{
+    color: white;
+    font-size: 16px;
+}
+main {
+    width: 400px;
+    margin:10px auto;
+    padding: 0;
+    color: #4c4c4c;
+    clear: both;
+}
+#mainHead {
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+#mainHead a{
+    color: #4c4c4c;;
+}
+  #mainHead li {
+      height: 20px;
+      padding: 0;
+      margin: 0;
+  }
+.liimg{
+    width: 50px;
+    position: relative;
+    padding: 0;
+    right: -17px;
+}
+.liimg img {
+    width: 100%;
+    display: block;
+}
+#theLogo {
+    margin: 0;
+    padding: 0;
+}
+#theLogo img{
+    max-width: 150px;
+    margin-left: 40px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+#formbody {
+    background-color: white;
+    padding-top: 15px;
+    margin-top: 15px;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    padding-bottom: 0;
+}
+#mainHead li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+#mainHead a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+
+}
+#mainHead li img {
+    width: 100%;
+}
+#formHead {
+    text-align: center;
+}
+#formHead h4, form h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+#formHead p, a{
+font-size: small;
+font-weight: 400;
+text-decoration: none;
+}
+#form {
+    width: 96%;
+    margin: auto;
+}
+form li {
+    list-style-type: none;
+    width: 90%;
+    margin: 25px auto;
+    padding: 0 !important;
+}
+input {
+    width: 100%;
+    padding: 6px 5px;
+    font-size: 1em;
+    border: 1px solid #c7c7c7;
+    outline: none;
+    border-radius: 2px;
+}
+button {
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    font-size: 15.75px;
+    background-color: #0077c5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#formbody p {
+    font-size: small;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px 4px;
+    font-style: italic;
+}
+@media screen and (min-width: 750px) {
+    #jjj {
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    #setUp {
+        display: none;
+    }
+}
